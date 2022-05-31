@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jingliu/Projects/AzureFunction/AzureFunction.csproj": {}
+  },
+  "projects": {
+    "/Users/jingliu/Projects/AzureFunction/AzureFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jingliu/Projects/AzureFunction/AzureFunction.csproj",
+        "projectName": "AzureFunction",
+        "projectPath": "/Users/jingliu/Projects/AzureFunction/AzureFunction.csproj",
+        "packagesPath": "/Users/jingliu/.nuget/packages/",
+        "outputPath": "/Users/jingliu/Projects/AzureFunction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jingliu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.12.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/jingliu/Bin/dotnet/sdk/3.1.419/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
